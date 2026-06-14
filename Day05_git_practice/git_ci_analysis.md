@@ -9,7 +9,7 @@ Repository Link: https://github.com/electron/electron
 Description:
 Electron is an open-source framework that enables developers to build cross-platform desktop applications using web technologies such as HTML, CSS, and JavaScript while leveraging native C++ components.
 
----
+
 
 ## Commit Analysis
 
@@ -23,7 +23,7 @@ build(deps): bump github/codeql-action from 4.36.1 to 4.36.2
 What changed and why:
 Updated the GitHub CodeQL Action dependency from version 4.36.1 to 4.36.2 to keep the security analysis workflow up to date. The change modified the `scorecards.yml` workflow file.
 
----
+
 
 ### Commit 2
 
@@ -35,7 +35,7 @@ fix: running under `NODE_OPTIONS='--import=tsx'`
 What changed and why:
 Fixed compatibility issues when running Electron with the `tsx` loader. The update adds support for the `electron:` scheme and prevents runtime errors during TypeScript transpilation.
 
----
+
 
 ### Commit 3
 
@@ -47,7 +47,7 @@ fix: devTools network events dropped on RenderFrameHost swap
 What changed and why:
 Resolved a bug where DevTools network events were lost during page navigations due to unnecessary debugger reconnections. The fix ensures network requests are correctly displayed in DevTools.
 
----
+
 
 ### Commit 4
 
@@ -59,7 +59,7 @@ test: use strict mode for TS smoke tests and improve typings
 What changed and why:
 Improved TypeScript smoke tests by enabling strict mode and refining type definitions, resulting in more reliable testing and better type safety.
 
----
+
 
 ### Commit 5
 
@@ -80,7 +80,7 @@ Workflow File: `pipeline-electron-build-and-test.yml`
 Purpose:
 Builds the Electron application for the specified platform and architecture, generates build artifacts, and prepares them for testing.
 
----
+
 
 ### Job: test
 
