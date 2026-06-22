@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Rohit Gupta\Desktop\CCtech_joining\CCTech-PreJoining-2026\Day12\native\build\CMakeFiles\0da7a54da08097650884bd40c3b83e6e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{72CA64B3-4B0E-3A40-BC71-DD1025D49522}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

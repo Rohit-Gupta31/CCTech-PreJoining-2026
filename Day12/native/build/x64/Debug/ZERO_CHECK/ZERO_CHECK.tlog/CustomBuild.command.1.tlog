@@ -1,0 +1,10 @@
+^C:\USERS\ROHIT GUPTA\DESKTOP\CCTECH_JOINING\CCTECH-PREJOINING-2026\DAY12\NATIVE\BUILD\CMAKEFILES\0DA7A54DA08097650884BD40C3B83E6E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Rohit Gupta/Desktop/CCtech_joining/CCTech-PreJoining-2026/Day12/native" "-BC:/Users/Rohit Gupta/Desktop/CCtech_joining/CCTech-PreJoining-2026/Day12/native/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Rohit Gupta/Desktop/CCtech_joining/CCTech-PreJoining-2026/Day12/native/build/ShapeLibrary.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
