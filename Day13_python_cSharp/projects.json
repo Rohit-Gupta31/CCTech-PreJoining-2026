@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Website Redesign",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "name": "AI Chatbot",
+        "status": "inactive"
+    },
+    {
+        "id": 3,
+        "name": "Database Migration",
+        "status": "active"
+    },
+    {
+        "id": 4,
+        "name": "Mobile App",
+        "status": "active"
+    }
+]
