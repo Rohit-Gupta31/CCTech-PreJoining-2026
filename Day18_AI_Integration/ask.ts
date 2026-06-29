@@ -111,11 +111,8 @@ async function main(): Promise<void> {
 
   rl.question("Enter your question: ", async (question: string) => {
     const context = findDocument(question);
-
-    console.log("\nRetrieved Context:\n");
+    console.log("context : ");
     console.log(context);
-
-    console.log("\nGenerating answer...\n");
 
     try {
       const answer = await ask(question, context);
